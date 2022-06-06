@@ -38,7 +38,7 @@ function setup() {
   
   gameOver = createSprite (250,130,25,25);
 gameOver.addImage (gameOverImage);
-  gameOver.scale = 0.50;
+  gameOver.scale = 0.2;
   gameOver.visible=false;
     
   obstacleGroup = new Group;
